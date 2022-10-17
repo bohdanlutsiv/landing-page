@@ -4,11 +4,11 @@
 }
 .nav-bar {
     display: flex;
-    justify-content: space-around;
-    position: fixed;
     align-items: center;
+    position: fixed;
     background: white;
     padding: 20px;
+    width: 100%;
 }
 .nav-link {
     color: black;
@@ -105,6 +105,9 @@ p {
     align-items: center;
     margin: 70px;
 }
+.center_items {
+    margin: 25px
+}
 .description-item-text {
     display: flex;
     flex-direction: column;
@@ -136,6 +139,4 @@ p {
 
 and (max-width: 480px) {
 
-/ * Insert your styles here
-
-}.
+};
